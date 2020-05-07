@@ -20,8 +20,8 @@
             <i class="el-icon-setting" style="margin-right: 15px"></i>
           </el-header>
           <el-main class="el_main">
-            <!-- 路由容器 -->
-<!--&lt;!&ndash;            <router-view></router-view>&ndash;&gt;2121-->
+<!--             路由容器 -->
+            <router-view></router-view>
           </el-main>
         </el-container>
       </el-container>
@@ -44,7 +44,6 @@
         created () {
         },
         mounted(){
-          console.log(this.height,'window.screen.heigh')
         },
         watch: {
           $route () {
@@ -129,6 +128,7 @@
     min-height: 500px;
   }
   .el_main{
+    padding: 0;
     width: 100%;
     height: 100%;
   }
