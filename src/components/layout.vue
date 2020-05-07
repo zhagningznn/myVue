@@ -21,7 +21,7 @@
           </el-header>
           <el-main class="el_main">
             <!-- 路由容器 -->
-<!--            <router-view></router-view>-->
+<!--&lt;!&ndash;            <router-view></router-view>&ndash;&gt;2121-->
           </el-main>
         </el-container>
       </el-container>
