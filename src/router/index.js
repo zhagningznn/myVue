@@ -12,8 +12,8 @@ Vue.use(Router)
 // 固定的路由
 export const fixedRouter =[
   {
-    path:'/login',
-    component:login,
+    path:'',
+    component:layout,
     hidden: true
   },
   {

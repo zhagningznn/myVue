@@ -7,12 +7,14 @@ import 'element-ui/lib/theme-chalk/index.css'
 import global from '@/utils/global.js'
 import axios from 'axios'
 import  Qs from 'qs'
+import _api from '@/api/api.js'
 
 Vue.config.productionTip = false
 Vue.use(ElementUI)
 Vue.prototype.global = global
 Vue.prototype.$http = axios
 Vue.prototype.Qs=Qs
+Vue.prototype._api=_api
 /* eslint-disable no-new */
 new Vue({
   el: '#app',

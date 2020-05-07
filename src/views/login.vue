@@ -57,19 +57,6 @@
                     username:this.form.username,
                     password:this.form.password
                   }
-                // this.$http({
-                //   url:this.global.getHost()+'/admin/login',
-                //   method:'post',
-                //   data:this.Qs.stringify(formData)
-                // }).then(res=>{
-                //    console.log(res)
-                //    if(res.data.code==200){
-                //      console.log(res.code)
-                //      this.$message.success("登录成功!")
-                //      this.$router.push({ path: "/Tmain" });
-                //    }
-
-                // })
               if (this.form.username=='张宁'&&this.form.password=='666') {
                   this.$message.success("登录成功!")
                   this.$router.push({ path: "/Tmain" });

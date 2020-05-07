@@ -1,6 +1,6 @@
 <template>
   <component v-bind:is="currentItemComponent" :index="menu.path" :key="menu.path">
-    <i :class="menu.icon" v-if="menu.icon && !hc"></i><span v-if="!hc" slot="title">{{menu.text}}</span>
+    <i :class="menu.icon"></i><span v-if="!hc" slot="title">{{menu.text}}</span>
     <template slot="title" v-if="hc">
       <i :class="menu.icon" v-if="menu.icon"></i><span slot="title">{{menu.text}}</span>
     </template>
