@@ -1,8 +1,6 @@
 <template>
   <div>
-    显示数据
-    <router-link to="test002">去测试2</router-link>
-    <router-view></router-view>
+    备忘录页面
   </div>
 </template>
 
@@ -16,8 +14,8 @@
     mounted() {
 
     }
+
   }
 </script>
-
 <style>
 </style>

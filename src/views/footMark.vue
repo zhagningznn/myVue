@@ -1,6 +1,6 @@
 <template>
   <div>
-    我是测试002
+      我是足迹组件
   </div>
 </template>
 
@@ -14,8 +14,8 @@
     mounted() {
 
     }
-
   }
 </script>
+
 <style>
 </style>

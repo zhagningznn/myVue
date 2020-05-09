@@ -8,7 +8,7 @@
         <el-aside class="slider_container">
           <el-scrollbar class="default-scrollbar" wrap-class="default-scrollbar__wrap" view-class="default-scrollbar__view">
                   <div>
-                    <el-menu :default-active="defActive" class="el-menu-vertical-demo" unique-opened text-color="#fff" background-color="rgba(57,181,74,0.4)" router>
+                    <el-menu :default-active="defActive" class="el-menu-vertical-demo" unique-opened text-color="#fff" background-color="#EEE9BF" router>
                       <side-menus  :menu="item" :key="item.name" v-for="item in $router.options.routes[1].children" v-if="item.menu"></side-menus>
                     </el-menu>
                   </div>
@@ -113,7 +113,7 @@
     bottom: 0;
     float: left;
     position: fixed;
-    background: rgba(57,181,74,0.4);
+    background: #EEE9BF;
   }
   .el-header {
     color: #333;

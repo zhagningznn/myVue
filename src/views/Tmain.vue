@@ -36,7 +36,6 @@
   position: relative;
   width: 100%;
   height: 100%;
-  background: url(../assets/img/back2.jpg) no-repeat;
 }
 .word{
   font-size: 50px;
